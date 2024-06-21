@@ -1,0 +1,19 @@
+.searchForm {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.searchForm > input {
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  font-size: 18px;
+}

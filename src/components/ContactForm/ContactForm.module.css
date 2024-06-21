@@ -1,0 +1,40 @@
+.form {
+  margin-bottom: 30px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form > input {
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.error {
+  color: tomato;
+  font-weight: 600px;
+}
+
+.btn {
+  max-width: 150px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 1px solid rgb(29, 29, 29);
+  padding: 0.6em 1.2em;
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: ghostwhite;
+  transition: border-color 0.25s;
+}
